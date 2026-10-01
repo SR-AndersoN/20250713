@@ -1,12 +1,68 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Test</title>
+  <meta name="theme-color" content="#ffda35">
+  <meta name="description" content="汪有引力 WOOF 狗粮。最爱它的人，把爱放进每一餐。为每天的摇尾巴，认真挑选一袋狗粮。">
+  <title>汪有引力 WOOF｜把爱放进每一餐</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23ffda35'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Arial' font-size='43' font-weight='900' fill='%231c251e'%3EW%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./config.js" defer></script>
+  <script src="./script.js" defer></script>
 </head>
 <body>
-  <h1>It works.</h1>
-  <p>This is a test page.</p>
+  <a class="skip-link" href="#main">跳转到正文</a>
+  <div class="announcement">每一声「汪」，都值得被认真回应。 <span>GOOD FOOD. GREAT LOVE.</span></div>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="汪有引力首页"><span class="wordmark">WOOF<span class="brand-dot">™</span></span><span class="brand-cn">汪有引力</span></a>
+    <nav aria-label="主导航"><a href="#love">我们的心意</a><a href="#pick">为它选粮</a><a href="#questions">常见问题</a></nav>
+    <a class="button button-dark nav-cta" href="#pick">把爱装进碗里 <span aria-hidden="true">♥</span></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-line"></span> 给家里的那位毛孩子</p>
+        <h1 id="hero-title">它的世界里，<br>你是<span class="outlined">全部。</span></h1>
+        <p class="hero-statement">你的爱，<br>也要装满它的饭碗。</p>
+        <p class="hero-description">最爱它的人，把爱放进每一餐。<br>汪有引力狗粮，为你们平凡又珍贵的每一天。</p>
+        <a class="button button-dark hero-cta" href="#pick">为它选一袋 <span aria-hidden="true">♥</span></a>
+        <div class="hero-note"><span class="note-heart" aria-hidden="true">♡</span><span>它负责爱你。你负责认真爱它。</span></div>
+      </div>
+      <div class="hero-visual">
+        <img class="hero-image" src="./assets/dog-hero.jpg" width="1536" height="1024" alt="一只开心的金毛犬，身边放着 WOOF 狗粮与盛满狗粮的黄色食盆" fetchpriority="high">
+        <div class="love-stamp" aria-label="百分百的爱"><span>MADE FOR</span><strong>LOVE</strong><span>每一天 · 每一餐</span></div>
+        <div class="image-caption"><span>THE GOODEST DOG.</span><span>值得你的偏爱。</span></div>
+      </div>
+      <div class="hero-bottom"><span>一日三餐的惦记，是爱的日常。</span><span>SCROLL TO FEEL THE LOVE <span aria-hidden="true">↓</span></span></div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div>好好吃饭 <b>✳</b> 好好陪伴 <b>✳</b> 好好爱它 <b>✳</b> GOOD FOOD, GREAT LOVE <b>✳</b> 好好吃饭 <b>✳</b> 好好陪伴 <b>✳</b> 好好爱它 <b>✳</b></div></div>
+    <section class="love-section" id="love" aria-labelledby="love-title">
+      <div class="wrap love-layout">
+        <div class="love-heading"><p class="eyebrow">SMALL MOMENTS. BIG LOVE.</p><h2 id="love-title">爱不只说出口，<br>也在<span>每一口。</span></h2><p>它不会说「我爱你」。<br>但你一开门，答案就藏不住了。</p><span class="big-asterisk" aria-hidden="true">✳</span></div>
+        <div class="love-points">
+          <article><span class="number">01</span><div><h3>记得它的小期待</h3><p>听见粮袋的声音就跑过来。那个迫不及待的瞬间，值得你认真准备。</p></div></article>
+          <article><span class="number">02</span><div><h3>把选择，多留给用心</h3><p>认真看一看，再替它选一选。因为它交给你的信任，从来都是全部。</p></div></article>
+          <article><span class="number">03</span><div><h3>让爱，成为每天的事</h3><p>一碗饭，一次散步，一会儿抱抱。那些看起来很小的事，就是它的大幸福。</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="pick-section wrap" id="pick" aria-labelledby="pick-title">
+      <div class="section-top"><p class="eyebrow">A BAG FULL OF LOVE</p><span class="section-index">01 / DAILY LOVE</span></div>
+      <div class="product-layout">
+        <div class="product-visual"><img src="./assets/dog-hero.jpg" width="1536" height="1024" alt="WOOF DAILY LOVE 狗粮与金毛犬" loading="lazy"><div class="product-label">DAILY LOVE <span>日常有爱系列</span></div></div>
+        <div class="product-copy"><p class="eyebrow">WOOF · 汪有引力</p><h2 id="pick-title">给它的偏爱，<br>从这一袋开始。</h2><p class="product-description">把「想对它好一点」，<br>变成每天开饭时的那一点用心。</p>
+          <fieldset class="sizes"><legend>选择心意的大小 <span>包装规格</span></legend><div class="size-options"><label><input type="radio" name="size" value="1 kg" checked><span>1 kg<small>初次见面</small></span></label><label><input type="radio" name="size" value="2.5 kg"><span>2.5 kg<small>日常陪伴</small></span></label><label><input type="radio" name="size" value="6 kg"><span>6 kg<small>满满的爱</small></span></label></div></fieldset>
+          <p class="selection-note" id="selection-note" aria-live="polite">先从一小袋开始，认识新的开饭时光。</p>
+          <button class="button button-dark purchase-button" type="button" id="purchase-button">查看购买方式 <span aria-hidden="true">♥</span></button>
+          <p class="product-footnote">具体配方、适用犬只与商品信息，请以正式商品页及包装为准。</p>
+        </div>
+      </div>
+    </section>
+    <section class="questions wrap" id="questions" aria-labelledby="questions-title"><div><p class="eyebrow">A LITTLE MORE TO KNOW</p><h2 id="questions-title">多了解一点，<br>多一份用心。</h2></div><div class="faq-list"><details><summary>在哪里可以购买？<span aria-hidden="true">+</span></summary><p>点击「查看购买方式」即可查看当前购买渠道。正式销售渠道开放后，你可以从这里前往选购。</p></details><details><summary>如何选择包装规格？<span aria-hidden="true">+</span></summary><p>页面提供不同包装规格的选择。实际在售规格、价格和库存以正式商品页为准。</p></details><details><summary>在哪里查看配方和适用信息？<span aria-hidden="true">+</span></summary><p>请在购买前查看正式商品页与包装上的完整信息，确认产品是否适合你家的狗狗。</p></details></div></section>
+    <section class="closing"><div class="wrap"><p class="eyebrow">FOR ALL THE LOVE THEY GIVE.</p><h2>它把全世界给了你。<br>你把爱，<span>放进每一餐。</span></h2><a class="button button-dark" href="#pick">今天，也好好爱它 <span aria-hidden="true">♥</span></a></div></section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="#" aria-label="返回顶部"><span class="wordmark">WOOF<span class="brand-dot">™</span></span><span class="brand-cn">汪有引力</span></a><p>好好吃饭。好好陪伴。好好爱它。</p><span>© <span id="year">2026</span> WOOF 汪有引力</span></footer>
+  <dialog id="purchase-dialog" aria-labelledby="dialog-title"><button class="dialog-close" id="dialog-close" aria-label="关闭购买方式窗口">×</button><span class="dialog-heart" aria-hidden="true">♥</span><p class="eyebrow">THANK YOU FOR YOUR LOVE</p><h2 id="dialog-title">这一份爱，<br>我们记在心里。</h2><p>你选中了 <strong id="chosen-size">1 kg</strong> 包装。</p><p id="purchase-message">购买渠道即将上线，敬请期待。</p><button class="button button-dark" id="dialog-confirm" type="button">继续逛逛</button></dialog>
 </body>
 </html>
